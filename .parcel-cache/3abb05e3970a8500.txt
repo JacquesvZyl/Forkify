@@ -46,7 +46,7 @@
 83D:\web_dev\Jonas\Forkify\node_modules\core-js\modules\esnext.async-iterator.find.js132913787942726640 0
 72D:\web_dev\Jonas\Forkify\node_modules\core-js\features\typed-array\of.js132913787951674470 0
 68D:\web_dev\Jonas\Forkify\node_modules\nanoid\non-secure\package.json132913611395997437 0
-29D:\web_dev\Jonas\Forkify\dist132914731786201045 1
+29D:\web_dev\Jonas\Forkify\dist132915384934907163 1
 94D:\web_dev\Jonas\Forkify\node_modules\msgpackr-extract\prebuilds\darwin-arm64\node.abi102.node132913611397520091 0
 66D:\web_dev\Jonas\Forkify\node_modules\core-js\stable\math\trunc.js132913787955647430 0
 85D:\web_dev\Jonas\Forkify\node_modules\core-js\modules\esnext.typed-array.to-sorted.js132913787944561934 0
@@ -93,7 +93,7 @@
 75D:\web_dev\Jonas\Forkify\node_modules\core-js\internals\get-substitution.js132913787947046822 0
 70D:\web_dev\Jonas\Forkify\node_modules\core-js\stable\array\flat-map.js132913787945643115 0
 57D:\web_dev\Jonas\Forkify\node_modules\terser\lib\compress132913611402579285 1
-45D:\web_dev\Jonas\Forkify\src\js\views\view.js132914532384794760 0
+45D:\web_dev\Jonas\Forkify\src\js\views\view.js132915289436780068 0
 42D:\web_dev\Jonas\Forkify\node_modules\yaml132913611402842309 1
 64D:\web_dev\Jonas\Forkify\node_modules\cssnano-utils\package.json132913611392624576 0
 62D:\web_dev\Jonas\Forkify\node_modules\msgpackr-extract\.github132913611405327131 1
@@ -198,7 +198,7 @@
 76D:\web_dev\Jonas\Forkify\node_modules\core-js\features\date\to-gmt-string.js132913787954675272 0
 55D:\web_dev\Jonas\Forkify\node_modules\timsort\README.md132913611390357856 0
 57D:\web_dev\Jonas\Forkify\node_modules\htmlparser2\LICENSE132913611388443299 0
-50D:\web_dev\Jonas\Forkify\dist\favicon.8b2f57bf.png132914731786156407 0
+50D:\web_dev\Jonas\Forkify\dist\favicon.8b2f57bf.png132915384934867694 0
 53D:\web_dev\Jonas\Forkify\src\sass\_searchResults.scss132875561427268211 0
 69D:\web_dev\Jonas\Forkify\node_modules\postcss-reduce-initial\src\data132913611392049336 1
 84D:\web_dev\Jonas\Forkify\node_modules\core-js\modules\esnext.reflect.get-metadata.js132913787944021206 0
@@ -217,7 +217,7 @@
 69D:\web_dev\Jonas\Forkify\node_modules\caniuse-lite\data\regions\IL.js132913611410766255 0
 74D:\web_dev\Jonas\Forkify\node_modules\core-js\actual\instance\ends-with.js132913787938753679 0
 63D:\web_dev\Jonas\Forkify\node_modules\terser\dist\bundle.min.js132913611396791118 0
-45D:\web_dev\Jonas\Forkify\src\js\controller.js132914731775337781 0
+45D:\web_dev\Jonas\Forkify\src\js\controller.js132915375136452747 0
 55D:\web_dev\Jonas\Forkify\node_modules\immutable\LICENSE132913613334538016 0
 87D:\web_dev\Jonas\Forkify\node_modules\postcss-merge-longhand\types\lib\getLastNode.d.ts132913611400520888 0
 62D:\web_dev\Jonas\Forkify\node_modules\is-binary-path\readme.md132913613334647136 0
@@ -230,7 +230,7 @@
 65D:\web_dev\Jonas\Forkify\node_modules\css-tree\lib\lexer\match.js132913611404285631 0
 74D:\web_dev\Jonas\Forkify\node_modules\core-js\stable\typed-array\reduce.js132913787952353996 0
 67D:\web_dev\Jonas\Forkify\node_modules\core-js\stable\array\every.js132913787944834728 0
-40D:\web_dev\Jonas\Forkify\src\js\model.js132914690951503638 0
+40D:\web_dev\Jonas\Forkify\src\js\model.js132915379260855751 0
 77D:\web_dev\Jonas\Forkify\node_modules\css-tree\lib\syntax\atrule\font-face.js132913611401324407 0
 56D:\web_dev\Jonas\Forkify\node_modules\get-port\readme.md132913611391821055 0
 70D:\web_dev\Jonas\Forkify\node_modules\svgo\plugins\removeDimensions.js132913611401106167 0
@@ -265,7 +265,7 @@
 64D:\web_dev\Jonas\Forkify\node_modules\@parcel\transformer-js\lib132913611393150336 1
 79D:\web_dev\Jonas\Forkify\node_modules\core-js\stable\number\max-safe-integer.js132913787950940390 0
 88D:\web_dev\Jonas\Forkify\node_modules\@parcel\runtime-js\src\helpers\node\wasm-loader.js132913611400684689 0
-51D:\web_dev\Jonas\Forkify\src\js\views\recipeView.js132914721286053734 0
+51D:\web_dev\Jonas\Forkify\src\js\views\recipeView.js132915384929304693 0
 61D:\web_dev\Jonas\Forkify\node_modules\yaml\types\timestamp.js132913611400902810 0
 86D:\web_dev\Jonas\Forkify\node_modules\caniuse-lite\data\features\insertadjacenthtml.js132913611414193616 0
 64D:\web_dev\Jonas\Forkify\node_modules\sass\types\value\list.d.ts132913613336469294 0
@@ -518,7 +518,7 @@
 65D:\web_dev\Jonas\Forkify\node_modules\regenerator-runtime\LICENSE132913611388547463 0
 50D:\web_dev\Jonas\Forkify\node_modules\import-fresh132913611391667299 1
 72D:\web_dev\Jonas\Forkify\node_modules\core-js\modules\es.array.concat.js132913787939274480 0
-51D:\web_dev\Jonas\Forkify\dist\index.e37f48ea.js.map132914731786196421 0
+51D:\web_dev\Jonas\Forkify\dist\index.e37f48ea.js.map132915384934897244 0
 66D:\web_dev\Jonas\Forkify\node_modules\stylehacks\types\plugin.d.ts132913611400684689 0
 50D:\web_dev\Jonas\Forkify\node_modules\htmlnano\lib132913611394985549 1
 49D:\web_dev\Jonas\Forkify\node_modules\is-arrayish132913611393378493 1
@@ -685,7 +685,7 @@
 73D:\web_dev\Jonas\Forkify\node_modules\@swc\helpers\src\_inherits_loose.js132913611404528567 0
 45D:\web_dev\Jonas\Forkify\node_modules\postcss132913611399345369 1
 63D:\web_dev\Jonas\Forkify\node_modules\css-select\lib\compile.js132913611391746656 0
-40D:\web_dev\Jonas\Forkify\dist\index.html132914731786136562 0
+40D:\web_dev\Jonas\Forkify\dist\index.html132915384934584764 0
 68D:\web_dev\Jonas\Forkify\node_modules\@types\parse-json\package.json132913611391096895 0
 102D:\web_dev\Jonas\Forkify\node_modules\posthtml\node_modules\posthtml-parser\dist\location-tracker.d.ts132913611393532255 0
 56D:\web_dev\Jonas\Forkify\node_modules\htmlnano\docs\docs132913611403348090 1
@@ -1491,7 +1491,7 @@
 57D:\web_dev\Jonas\Forkify\node_modules\glob-parent\LICENSE132913613333798436 0
 95D:\web_dev\Jonas\Forkify\node_modules\htmlnano\docs\versioned_docs\version-2.0.0\040-presets.md132913611403010808 0
 57D:\web_dev\Jonas\Forkify\node_modules\terser\CHANGELOG.md132913611402891769 0
-48D:\web_dev\Jonas\Forkify\dist\icons.dfd7a6db.svg132914731786136562 0
+48D:\web_dev\Jonas\Forkify\dist\icons.dfd7a6db.svg132915384934599643 0
 52D:\web_dev\Jonas\Forkify\node_modules\terser\LICENSE132913611389360896 0
 52D:\web_dev\Jonas\Forkify\node_modules\terser\main.js132913611400699458 0
 83D:\web_dev\Jonas\Forkify\node_modules\postcss-merge-longhand\src\lib\validateWsc.js132913611397534973 0
@@ -3397,7 +3397,7 @@
 60D:\web_dev\Jonas\Forkify\node_modules\is-binary-path\license132913613334587617 0
 63D:\web_dev\Jonas\Forkify\node_modules\is-arrayish\.editorconfig132913611392808279 0
 78D:\web_dev\Jonas\Forkify\node_modules\core-js\modules\es.array-buffer.slice.js132913787939249680 0
-47D:\web_dev\Jonas\Forkify\dist\index.e37f48ea.js132914731786186271 0
+47D:\web_dev\Jonas\Forkify\dist\index.e37f48ea.js132915384934882365 0
 63D:\web_dev\Jonas\Forkify\node_modules\is-arrayish\.istanbul.yml132913611392540255 0
 72D:\web_dev\Jonas\Forkify\node_modules\core-js\internals\function-name.js132913787946292875 0
 68D:\web_dev\Jonas\Forkify\node_modules\htmlnano\lib\modules\custom.js132913611393552093 0
@@ -5751,7 +5751,7 @@
 59D:\web_dev\Jonas\Forkify\node_modules\core-js\actual\symbol132913787955905348 1
 64D:\web_dev\Jonas\Forkify\node_modules\core-js\actual\unescape.js132913787955850790 0
 56D:\web_dev\Jonas\Forkify\node_modules\core-js\actual\url132913787954749679 1
-48D:\web_dev\Jonas\Forkify\dist\index.f7626f62.css132914731786156407 0
+48D:\web_dev\Jonas\Forkify\dist\index.f7626f62.css132915384934589872 0
 61D:\web_dev\Jonas\Forkify\node_modules\core-js\actual\weak-set132913787948009039 1
 70D:\web_dev\Jonas\Forkify\node_modules\core-js\actual\weak-set\index.js132913787948009039 0
 79D:\web_dev\Jonas\Forkify\node_modules\core-js\actual\url-search-params\index.js132913787947989195 0
@@ -7393,6 +7393,6 @@
 51D:\web_dev\Jonas\Forkify\node_modules\.bin\sass.ps1132913613346731339 0
 51D:\web_dev\Jonas\Forkify\node_modules\.bin\svgo.ps1132913611422518425 0
 53D:\web_dev\Jonas\Forkify\node_modules\.bin\terser.ps1132913611422523273 0
-48D:\web_dev\Jonas\Forkify\dist\icons.21bad73c.svg132914731786131602 0
-52D:\web_dev\Jonas\Forkify\dist\index.f7626f62.css.map132914731786156407 0
-47D:\web_dev\Jonas\Forkify\dist\logo.726d37a8.png132914731786131602 0
+48D:\web_dev\Jonas\Forkify\dist\icons.21bad73c.svg132915384934490635 0
+52D:\web_dev\Jonas\Forkify\dist\index.f7626f62.css.map132915384934589872 0
+47D:\web_dev\Jonas\Forkify\dist\logo.726d37a8.png132915384934599643 0
