@@ -1,6 +1,5 @@
-import { async } from 'regenerator-runtime';
 import { API_URL, API_KEY, RES_PER_PAGE } from './config.js';
-import { getJSON } from './helpers.js';
+import { AJAX } from './helpers.js';
 
 export const state = {
   recipe: {},
@@ -15,19 +14,9 @@ export const state = {
 
 export async function loadRecipe(id) {
   try {
-    console.log(`${API_URL}/${id}`);
-    const data = await getJSON(`${API_URL}${id}`);
-    const { recipe } = data.data;
-    state.recipe = {
-      id: recipe.id,
-      title: recipe.title,
-      publisher: recipe.publisher,
-      sourceUrl: recipe.source_url,
-      image: recipe.image_url,
-      servings: recipe.servings,
-      cookingTime: recipe.cooking_time,
-      ingredients: recipe.ingredients,
-    };
+    const data = await AJAX(`${API_URL}${id}?key=${API_KEY}`);
+    state.recipe = createRecipeObject(data);
+
     state.bookmarks.some(bookmark => bookmark.id === id)
       ? (state.recipe.bookmarked = true)
       : (state.recipe.bookmarked = false);
@@ -39,8 +28,7 @@ export async function loadRecipe(id) {
 export async function loadSearchResults(query) {
   try {
     state.search.query = query;
-    const data = await getJSON(`${API_URL}?search=${query}`);
-    console.log(data);
+    const data = await AJAX(`${API_URL}?search=${query}&key=${API_KEY}`);
 
     state.search.results = data.data.recipes.map(rec => {
       return {
@@ -48,6 +36,7 @@ export async function loadSearchResults(query) {
         title: rec.title,
         publisher: rec.publisher,
         image: rec.image_url,
+        ...(rec.key && { key: rec.key }),
       };
     });
     ResetResultsPage();
@@ -97,10 +86,55 @@ export function removeBookmark(id) {
   persistBookmarks();
 }
 
+export async function uploadRecipe(data) {
+  try {
+    const ingredients = Object.entries(data)
+      .filter(entry => entry[0].startsWith('ingredient') && entry[1] !== '')
+      .map(ing => {
+        const ingArr = ing[1].split(',').map(el => el.trim());
+        if (ingArr.length !== 3) throw new Error('Wrong ingredient Format');
+        const [quantity, unit, description] = ingArr;
+
+        //prettier-ignore
+        return {quantity: quantity ? Number(quantity) : null, unit, description,};
+      });
+
+    const recipe = {
+      title: data.title,
+      publisher: data.publisher,
+      source_url: data.sourceUrl,
+      image_url: data.image,
+      servings: Number(data.servings),
+      cooking_time: Number(data.cookingTime),
+      ingredients,
+    };
+
+    const newData = await AJAX(`${API_URL}?key=${API_KEY}`, recipe);
+    state.recipe = createRecipeObject(newData);
+    addBookmark(state.recipe);
+  } catch (err) {
+    throw err;
+  }
+}
+
+function createRecipeObject(data) {
+  const { recipe } = data.data;
+  return {
+    id: recipe.id,
+    title: recipe.title,
+    publisher: recipe.publisher,
+    sourceUrl: recipe.source_url,
+    image: recipe.image_url,
+    servings: recipe.servings,
+    cookingTime: recipe.cooking_time,
+    ingredients: recipe.ingredients,
+    ...(recipe.key && { key: recipe.key }),
+  };
+}
+
 function init() {
   const storage = localStorage.getItem('bookmarks');
   if (storage) state.bookmarks = JSON.parse(storage);
 }
 
 init();
-console.log(state.bookmarks);
